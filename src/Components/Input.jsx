@@ -2,9 +2,18 @@ import React from "react";
 
 const Input = () => {
   return (
-    <div>
-      <h1 className="text-3xl"></h1>
-    </div>
+    <form className="flex w-3/4 flex-col items-center">
+      <img src="/img/image.png" alt="" />
+      <label htmlFor="name">Name</label>
+      <input type="text" />
+      <label htmlFor="event">Event</label>
+      <input type="text" />
+      <label htmlFor=""></label>
+      <div>
+        <label htmlFor="date">Date</label>
+        <input type="date" />
+      </div>
+    </form>
   );
 };
 
